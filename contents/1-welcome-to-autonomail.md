@@ -2,7 +2,7 @@
   "title": "Welcome to Autonomail",
   "tags": ["blog"],
   "category": "general",
-  "date": "25-11-2013"
+  "date": "11-25-2013"
 }}}
 
 Welcome to the new Autonomail blog. Over the next few months, as we develop and prepare our product for beta launch we
