@@ -5,4 +5,4 @@ Using git submodules we feed this into repo into [poet](https://npmjs.org/packag
 
 ## LICENSE
 
-Copyright (C) 2014 [Ramesh Nair](http://hiddentao.com). All Rights Reserved.
+Creative Commons Attribution-ShareAlike 4.0 International (http://creativecommons.org/licenses/by-sa/4.0/)
