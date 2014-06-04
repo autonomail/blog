@@ -1,6 +1,6 @@
 {{{ "title": "New site deployment process", "tags": ["server"], "category": "server", "date": "05-27-2014" }}}
 
-We have shifted over to using [Digital Ocean](https://www.digitalocean.com/?refcode=98d0e3d7eb67) for hosting [autonomail.com](https://autonomail.com). The .com website is not involved the actual email service part of our service. Nor will it have user login facilities. It is simply a front-facing website introducing us and keeping you up-to-date with what we're upto.
+We have shifted over to using [Digital Ocean](https://www.digitalocean.com/?refcode=98d0e3d7eb67) for hosting [autonomail.com](https://autonomail.com). This website is not involved in the actual email part of our service. Nor will it have user login facilities. It is simply a place for introducing us and keeping you up-to-date with what we're upto.
 
 We're running the site within a [Docker](docker.io) container, built on the [phusion](https://github.com/phusion/baseimage-docker) base image. Docker is now the preferred mechanism of deploying sites for us (and many other folks). The phusion base image is the perfect foundation upon which to build a Docker container as it makes it easy to run daemons and also provides a number of useful utilities such as [runsv](http://smarden.org/runit/runsv.8.html) and [syslog-ng](http://www.balabit.com/network-security/syslog-ng) both of which we use.
 
