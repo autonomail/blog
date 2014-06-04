@@ -4,7 +4,7 @@ We have shifted over to using [Digital Ocean](https://www.digitalocean.com/?refc
 
 We're running the site within a [Docker](docker.io) container, built on the [phusion](https://github.com/phusion/baseimage-docker) base image. Docker is now the preferred mechanism of deploying sites for us (and many other folks). The phusion base image is the perfect foundation upon which to build a Docker container as it makes it easy to run daemons and also provides a number of useful utilities such as [runsv](http://smarden.org/runit/runsv.8.html) and [syslog-ng](http://www.balabit.com/network-security/syslog-ng) both of which we use.
 
-Logging gets sent to [Loggly](https://www.loggly.com/). This will allow us to perform post-mortem analysis of problems even if we are unable to connect to our server. If things get heavy later and Loggly cannot hold up then we may switch to hosting our own logging server, though we don't think this will be necessary.
+Logging gets sent to [Loggly](https://www.loggly.com/). This will allow us to perform post-mortem analysis of problems even if we are unable to connect to our server.
 
 The server itself is setup using an [Ansible](http://ansible.com/) playbook, making it easy for us to setup new servers and deploy the site to them. We re-deploy the site whenever a successful build completes within [Shippable](https://www.shippable.com/), our build platform. Right now, we're looking to automate this deployment process so that we can have true "continuous deployment".
 
