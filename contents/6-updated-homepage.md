@@ -1,4 +1,4 @@
-{{{ "title": "Updated homepage", "tags": ["website"], "category": "website", "date": "06-25-2014" }}}
+{{{ "title": "Updated homepage and documentation", "tags": ["website"], "category": "website", "date": "06-25-2014" }}}
 
 We have simplified our homepage. We have also added an [FAQ](/faq) and updated our [documentation](/docs).
 
